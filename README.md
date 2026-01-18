@@ -1,10 +1,9 @@
-# 🌸 Pink Notes App
+# 🌸  Notes App
 
 A beautiful, feature-rich notes application built with React Native and Expo. Organize your thoughts with a stunning Pinterest-style masonry layout and 10 gorgeous pastel color themes.
 
 ## ✨ Features
 
-- **📌 Pinterest-Style Masonry Layout** - Beautiful, responsive note display with automatic column arrangement
 - **🎨 10 Pastel Color Options** - Choose from 10 stunning pastel themes to personalize your notes:
   - Soft Pink
   - Lavender
