@@ -2,28 +2,6 @@
 
 A beautiful, feature-rich notes application built with React Native and Expo. Organize your thoughts with a stunning Pinterest-style masonry layout and 10 gorgeous pastel color themes.
 
-## ✨ Features
-
-- **🎨 10 Pastel Color Options** - Choose from 10 stunning pastel themes to personalize your notes:
-  - Soft Pink
-  - Lavender
-  - Mint Green
-  - Peachy Orange
-  - Sky Blue
-  - Butter Yellow
-  - Rose
-  - Lilac
-  - Sage Green
-  - Coral
-
-- **🔍 Smart Search** - Quickly find notes by title or content
-- **✏️ Edit Notes** - Long press to edit your notes with ease
-- **🗑️ Delete Notes** - Long press to remove unwanted notes
-- **💾 Persistent Storage** - AsyncStorage keeps your notes safe between sessions
-- **↻ Pull-to-Refresh** - Quick refresh to reload your notes
-- **⚡ Fast & Responsive** - Built with TypeScript for type safety and better performance
-- **📱 Cross-Platform** - Works seamlessly on iOS and Android
-
 ## 🛠️ Tech Stack
 
 - **React Native** - Mobile app framework
@@ -155,38 +133,7 @@ All notes are stored locally using **AsyncStorage**. Data persists between app s
 - Automatic removal on note deletion
 - Data remains even after app closure
 
-## 🐛 Troubleshooting
 
-**Notes not loading?**
-- Clear AsyncStorage cache and restart the app
-- Check device storage space
-
-**Color not displaying correctly?**
-- Verify color hex codes in [constants/Colors.ts](constants/Colors.ts)
-- Rebuild the app: `npx expo start --clear`
-
-**Search not working?**
-- Ensure you have notes created
-- Check search query formatting
-
-## 📦 Available Scripts
-
-```bash
-# Start development server
-npm start
-
-# Run on iOS
-npm run ios
-
-# Run on Android
-npm run android
-
-# Run linter
-npm run lint
-
-# TypeScript type checking
-npx tsc --noEmit
-```
 
 ## 🔄 Updates & Future Features
 
@@ -197,23 +144,4 @@ npx tsc --noEmit
 - Voice-to-text notes
 - Image attachments
 
-## 📄 License
 
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## 📞 Support
-
-For issues or questions, please open an issue on [GitHub](https://github.com/Riya160200/Notes-app-first-year/issues).
-
----
-
-**Made with ❤️ using React Native & Expo**
-
-Happy note-taking! 🎉
